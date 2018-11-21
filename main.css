@@ -1,0 +1,20 @@
+div.bar {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgb(161, 161, 161) 10%, rgb(73, 73, 73) 60%, black);
+    border: 3px solid black;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+div.progress {
+    width: 33%;
+    height: 194px;
+    left: 0;
+    top: 0;
+    border: 3px solid blue;
+    background: linear-gradient(to top, rgb(93, 93, 255)10%, blue, rgb(93, 93, 255) 90%);
+    border-radius: 97px 0 0 97px;
+    box-shadow: 10px 0 50px 0 black;
+}
